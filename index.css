@@ -176,3 +176,26 @@ body {
     font-weight: 50;
     font-family:  'Montserrat', sans-serif;
   }
+
+  .socials a {
+    margin: 10px;
+    color: black;
+    font-size: larger;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 10px;
+    margin:40px;
+  }
+
+  .socials > a:hover {
+    color: white;
+    text-decoration: border;
+    text-decoration-color: black;
+    text-underline-offset: 14px;
+    text-decoration-thickness: 3px;
+  }
