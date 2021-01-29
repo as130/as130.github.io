@@ -1,0 +1,164 @@
+body {
+    background-color: #ebcbd0;
+    font-family: Arial;
+}
+
+.info {
+    margin: 50px;
+}
+
+.header {
+    align-items: center;
+    height: 46px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+.button_wrapper {
+    background-color: white;
+    justify-content: center;
+    margin-right: auto;
+    flex: 1;
+    display:flex;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.button_wrapper > a {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #ebcbd0;
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+  .button_wrapper > a:hover {
+    color: black;
+    text-decoration: border;
+    text-decoration-color: black;
+    text-underline-offset: 14px;
+    text-decoration-thickness: 3px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .headshot {
+      width: 180px;
+      height: 180px;
+      border-radius: 25px;
+      margin: 10px;
+  }
+
+  .about_div {
+      display: flex;
+      border-radius: 25px;
+  }
+
+
+  .about_div p {
+      margin: 10px;
+      font-size: 150%;
+  }
+
+  .experience p {
+    margin: 10px;
+    font-size: 150%;
+  }
+
+  .contact p {
+    margin: 10px;
+    font-size: 150%;
+  }
+
+  .welcome{
+      text-align: center;
+      font-size: 500%;
+      color: white;
+  }
+
+  .empty_div {
+      height:200px;
+      background-color:#ebcbd0;
+  }
+
+  h1.ml8 {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: #fff;
+    width: 3em;
+    height: 3em;
+  }
+  
+  .ml8 .letters-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 1em;
+  }
+  
+  .ml8 .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    line-height: 0.7em;
+    right: -0.12em;
+    top: -0.2em;
+  }
+  
+  .ml8 .bang {
+    font-size: 1.4em;
+    top: auto;
+    left: -0.06em;
+  }
+  
+  .ml8 .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .ml8 .circle-white {
+    width: 3em;
+    height: 3em;
+    border: 2px dashed white;
+    border-radius: 2em;
+  }
+  
+  .ml8 .circle-dark {
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #4f7b86;
+    border-radius: 3em;
+    z-index: 1;
+  }
+  
+  .ml8 .circle-dark-dashed {
+    border-radius: 2.4em;
+    background-color: transparent;
+    border: 2px dashed #4f7b86;
+    width: 2.3em;
+    height: 2.3em;
+  }
+
+  .header-wrapper {
+      display: flex;
+      height: 70px;
+  }
+

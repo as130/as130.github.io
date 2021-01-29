@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Abigail Siegel Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>   
+    <div class="header">
+    <div class="button_wrapper">
+        <a href="#home" class="home_text">Home</a>
+        <a href="#about" class="about_text">About</a>
+        <a href="#experience" class="experience_text">Experience</a>
+        <a href="#contact" class="contact_text">Contact</a>
+    </div>
+    </div>
+    <div style="height:100px">
+    </div>
+    <a id="home"> 
+           </a>
+    <div style="height:1500px">
+    </div>
+    <div class="info">
+    <a id="about" class="about">
+        <h1><br></h1></h1>
+        <div class="header-wrapper">
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">A</h1>
+            <h1 style="align-self:flex-end; margin:0px; font-size: 300%;">B</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">O</h1>
+            <h1 style="align-self:flex-end; margin:0px; font-size: 300%;">U</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">T</h1>
+            <h1 style="align-self:flex-end; margin:0px; padding-left: 30px; font-size: 300%;">M</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">E</h1>
+        </div>
+        <h1><br></h1></h1>
+        <div class="about_div">
+        <img class="headshot" src="./Abby_Headshot.jpeg">
+        <p>
+        My name is Abigail Siegel, but I go by Abby.  I was born and raised in New England and I'm currently a senior studying computer
+        science at Brown University with a focus in security.  In my free time I like playing the melodica, piano, playing with my dogs, and doing CTFs.  
+        </p>
+    </div>
+    </a>
+    <a id="experience" class="experience">
+        <div class="header-wrapper"></div>
+        <div class="empty_div"></div>
+        <h1 style="transform: rotate(9deg); font-size:300%;">EXPERIENCE</h1>
+        <p>
+            The summer after my freshman year of college, I interned at The Home Depot corporate offices in Atlanta, Georgia as a 
+            software engineering intern on the payments team where I first got introduced to the world of cyber-security.  From 
+            there, I interned at the Microsoft Corporate offices in Redmond, Washington the summer after my sophomore year as a software
+            engineering intern on the Microsoft Office Feature Blue security team.  The summer after my Google year, I interned at Google
+            in the Sunnyvale, California office (but remote from Providence, Rhode Island!) on the Tech Infra Security and Privacy team 
+            as a software engineering intern.
+        </p>
+        <p>
+            During my time at Brown, I have really enjoyed TAing multiple courses. My Freshman and Sophomore year I was a TA for ENGN0090 
+            (Management of Industrial and Nonprofit Organizations) and ENGN0900 (Managerial Decision Making) and served as the first-ever 
+            freshman TA for the courses!  My sophomore fall I was also a TA for CSCI0170 (Computer Science: An Integrated Introduction), and 
+            went on to TA CSCI1660 (Introduction to Computer Systems Security) both my junior spring, and now that I am a senior.  I'm also a member of 
+            Full Stack at Brown, a club that works on applications for the Brown University community.  There, I helped organize our virtual
+            hackathon and the CTF for the hackathon.
+        </p>
+
+        <p>
+            I've also been luck to get to work with ICERM over the years and their Girls Get Math summer program.  Back when I was in high school,
+            I got to participate in the program where I was first introduced to computer science, and have since then interned for the program once
+            and served twice as a TA where I created a new lab in which students would create a naive bayesian classifier in MatLab to filter out Spam
+            emails from a set of data.
+        </p>
+    </a>
+    <a id="contact" class="contact">
+        <div class="empty_div"></div>
+        <div class="header-wrapper">
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">C</h1>
+            <h1 style="align-self:flex-end; margin:0px; font-size: 300%;">O</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">N</h1>
+            <h1 style="align-self:flex-end; margin:0px; font-size: 300%;">T</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">A</h1>
+            <h1 style="align-self:flex-end; margin:0px; font-size: 300%;">C</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">T</h1>
+            <h1 style="align-self:flex-end; margin:0px; padding-left: 30px; font-size: 300%;">M</h1>
+            <h1 style="align-self:flex-start; margin:0px; font-size: 300%;">E</h1>
+        </div>
+        <p>If you want to contact me, feel free to email me at: abigail_siegel@brown.edu or message me on LinkedIn!</p>
+    </a>
+</div>
+
+
+<h1 class="ml8">
+    <span class="letters-container">
+      <span class="letters letters-left">Hi</span>
+      <span class="letters bang">!</span>
+      <span class="letters rest">Welcome to my website, I'm really glad you're here! :)</span>
+    </span>
+  </h1>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </body>
+
+  <script>anime.timeline({loop: true})
+    .add({
+      targets: '.ml8 .circle-dark',
+      scale: [0, 1],
+      duration: 1100,
+      easing: "easeOutExpo",
+      offset: '-=600'
+    }).add({
+      targets: '.ml8 .letters-left',
+      scale: [0, 1],
+      duration: 1200,
+      offset: '-=550'
+    }).add({
+      targets: '.ml8 .bang',
+      scale: [0, 1],
+      rotateZ: [45, 15],
+      duration: 1200,
+      offset: '-=1000'
+    }).add({
+      targets: '.ml8',
+      opacity: 0,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1400
+    });
+  
+  anime({
+    targets: '.ml8 .circle-dark-dashed',
+    rotateZ: 360,
+    duration: 8000,
+    easing: "linear",
+    loop: true
+  });</script>
+</html>
