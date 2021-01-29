@@ -261,3 +261,11 @@ body {
   0% { transform: rotate(3deg); }
   100% { transform: rotate(-3deg); }
 }
+
+.tweet_div {
+  display: flex;
+}
+
+.tweet {
+  margin: 13px;
+}
