@@ -53,12 +53,6 @@ body {
     scroll-behavior: smooth;
   }
 
-  .headshot {
-      width: 180px;
-      height: 180px;
-      border-radius: 25px;
-      margin: 10px;
-  }
 
   .about_div {
       display: flex;
@@ -211,3 +205,59 @@ body {
     font-weight: 50;
     font-size: 150%;
   }
+
+
+.wave {
+  float: left;
+  margin: 20px;
+  animation: wave  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -20px;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+}
+
+.wave img {
+  border: 5px solid black;
+  display: block;
+  width: 200px;
+  height: 205px;
+}
+
+.wave figcaption {
+  text-align: center;
+}
+
+.wave:after{
+  content: '';
+  position: absolute;
+  width: 20px; 
+  height: 20px;
+  border: 1.5px solid black;
+  top: -10px; 
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+       
+.wave:before{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  display: block;
+  height: 44px;
+  width: 47px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+        
+@keyframes wave {
+  0% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
