@@ -205,3 +205,8 @@ body {
   .hover:hover {
     color: lightgoldenrodyellow;
   }
+
+  .coursework_list {
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 50;
+  }
