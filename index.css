@@ -165,6 +165,8 @@ body {
   .about_description {
     font-weight: 50;
     font-family:  'Montserrat', sans-serif;
+    padding-left: 100px;
+    padding-right: 50px;
   }
 
   .experience p {
