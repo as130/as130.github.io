@@ -162,3 +162,17 @@ body {
       height: 70px;
   }
 
+  .about_description {
+    font-weight: 50;
+    font-family:  'Montserrat', sans-serif;
+  }
+
+  .experience p {
+    font-weight: 50;
+    font-family:  'Montserrat', sans-serif;
+  }
+
+  .contact p {
+    font-weight: 50;
+    font-family:  'Montserrat', sans-serif;
+  }
