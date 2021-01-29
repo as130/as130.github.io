@@ -199,3 +199,7 @@ body {
     text-underline-offset: 14px;
     text-decoration-thickness: 3px;
   }
+
+  .hover:hover {
+    color: lightgoldenrodyellow;
+  }
